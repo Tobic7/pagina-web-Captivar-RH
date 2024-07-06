@@ -99,3 +99,29 @@ body{
     }
 
 }
+
+section .cont-img1{
+    height: 600px;
+    width: 100%;
+
+    background-image: url(img/RH2\ ANCHA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+section .textInside {
+    text-align: center;
+    padding-top: 300px;
+    color: rgb(255, 255, 255);
+    text-shadow:black;
+}
+
+section .textInside p.p1{
+    font-size: 25px;
+}
+
+section .textInside p.p2{
+    font-size: 25px;
+    color: black;
+}
