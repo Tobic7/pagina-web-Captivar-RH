@@ -73,6 +73,7 @@ body{
 
 .menu .navbar ul li a:hover{
     color: blueviolet;
+    transform: translateY(-3%);
 }
 
 #menu{
