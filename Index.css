@@ -6,6 +6,27 @@
     list-style: none;
 }
 
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 10000;
+}
+
+.fa-whatsapp{
+    font-size: 61px;
+}
+
+.float:hover{
+    background-color: #2cf877;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
