@@ -122,30 +122,22 @@ body{
 
 }
 
-section .cont-img1{
-    height: 600px;
-    width: 100%;
-
-    background-image: url(img/RH2\ ANCHA.jpg);
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/RH2\ ANCHA.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center;
 }
 
-section .textInside {
+.wrap-text{
+    color:white;
+    width: 50%;
     text-align: center;
-    padding-top: 300px;
-    color: rgb(255, 255, 255);
-    text-shadow:black;
-}
-
-section .textInside p.p1{
-    font-size: 25px;
-}
-
-section .textInside p.p2{
-    font-size: 25px;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.458);
 }
 
 .cont-nosotros{
@@ -166,12 +158,13 @@ section .textInside p.p2{
 .servicios h1{
     text-align: center;
     padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 .card-cont{
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: center;
+    padding-left: 15px;
 }
 
 .card{
@@ -186,8 +179,8 @@ section .textInside p.p2{
 .card img{
     height: 80%;
     width: 80%;
-    padding: 0 10px;
     border-radius: 10%;
+    justify-content: center;
 }
 
 .abajo{
@@ -202,6 +195,7 @@ section .textInside p.p2{
 .abajo li{
     padding: 0 10px;
 }
+
 
 @media screen and (max-width: 800px){
     .card-cont{
