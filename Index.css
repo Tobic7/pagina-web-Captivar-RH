@@ -148,9 +148,19 @@ section .textInside p.p2{
     color: black;
 }
 
+.cont-nosotros{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.nos-img{
+    width: 100%;
+    height: auto;
+}
+
 .servicios{
     padding-top: 20px;
-    background-color: rgb(213, 213, 213);
 }
 
 .servicios h1{
