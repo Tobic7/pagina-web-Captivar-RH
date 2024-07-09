@@ -177,10 +177,15 @@ body{
 
 
 .card img{
-    height: 80%;
-    width: 80%;
+    height: 74%;
+    width: 74%;
     border-radius: 10%;
     justify-content: center;
+}
+
+footer{
+    background-color: #2a394f;
+
 }
 
 .abajo{
@@ -194,6 +199,20 @@ body{
 
 .abajo li{
     padding: 0 10px;
+}
+
+.abajo ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.abajo ul a:hover{
+    color: blueviolet;
+}
+
+.abajo ul li img{
+    height: 20px;
+    padding: 0 20px;
 }
 
 
