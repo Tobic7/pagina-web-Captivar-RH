@@ -11,8 +11,8 @@
     width: 60px;
     height: 60px;
     background-color: #25d366;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
     color: white;
     border-radius: 50%;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .fa-whatsapp{
-    font-size: 61px;
+    font-size: 60px;
 }
 
 .float:hover{
@@ -146,4 +146,12 @@ section .textInside p.p1{
 section .textInside p.p2{
     font-size: 25px;
     color: black;
+}
+
+div.card-cont{
+    padding-top: 10px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: stretch;
 }
