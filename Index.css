@@ -148,10 +148,33 @@ section .textInside p.p2{
     color: black;
 }
 
-div.card-cont{
-    padding-top: 10px;
-    display: flex;
+.servicios{
+    padding-top: 20px;
+    background-color: aqua;
+}
 
+.card-cont{
+    display: flex;
     justify-content: space-around;
-    align-items: stretch;
+}
+
+.card{
+    text-align: center;
+}
+
+
+.card img{
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 800px){
+    .card-cont{
+        flex-direction: column;
+    }
+    .card p{
+        padding: 10px 0;
+    }
 }
