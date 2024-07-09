@@ -190,11 +190,27 @@ section .textInside p.p2{
     border-radius: 10%;
 }
 
+.abajo{
+    padding: 50px 0;
+}
+
+.abajo ul{
+    display: flex;
+    justify-content: center;
+}
+
+.abajo li{
+    padding: 0 10px;
+}
+
 @media screen and (max-width: 800px){
     .card-cont{
         flex-direction: column;
     }
     .card p{
         padding: 10px 0;
+    }
+    .cont-nosotros{
+        flex-direction: column;
     }
 }
