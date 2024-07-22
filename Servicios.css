@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 10000;
+}
+
+.fa-whatsapp{
+    font-size: 60px;
+}
+
+.float:hover{
+    background-color: #2cf877;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.back{
+    min-height: 110px;
+    padding: 32px 0;
+    background-color: #2a394f;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo img{
+    padding-top: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 19px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: blueviolet;
+    transform: translateY(-3%);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .back{
+        padding: 83px 0;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #2a394f;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+}
+footer{
+    background-color: #2a394f;
+
+}
+
+.abajo{
+    padding: 50px 0;
+}
+
+.abajo ul{
+    display: flex;
+    justify-content: center;
+}
+
+.abajo li{
+    padding: 0 10px;
+}
+
+.abajo ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.abajo ul a:hover{
+    color: blueviolet;
+}
+
+.abajo ul li img{
+    height: 20px;
+    padding: 0 20px;
+}
+
+
+@media screen and (max-width: 800px){
+    .card-cont{
+        flex-direction: column;
+    }
+    .card p{
+        padding: 10px 0;
+    }
+    .cont-nosotros{
+        flex-direction: column;
+    }
+}
