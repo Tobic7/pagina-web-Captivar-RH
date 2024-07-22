@@ -121,6 +121,51 @@ body{
     }
 
 }
+
+/* INICIO CUERPO DE LA PAGINA */
+
+
+.cont-text{
+    display: grid;
+    justify-items: center;
+    background-color: aqua;
+}
+
+h3{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cont-text p{
+    text-align: center;
+
+}
+
+.nosotras{
+    padding: 0 300px;
+}
+
+.cont-romi{
+    display: flex;
+    justify-content: center;
+}
+.img-romi img{
+    width: 100px;
+    height: auto;
+}
+
+.cont-ana{
+    display: flex;
+    justify-content: center;
+}
+
+.img-ana img{
+    width: 100px;
+    height: auto;
+}
+
+/* FIN CUERPO DE LA PAGINA */
+
 footer{
     background-color: #2a394f;
 
