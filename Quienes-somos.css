@@ -128,7 +128,6 @@ body{
 .cont-text{
     display: grid;
     justify-items: center;
-    background-color: aqua;
 }
 
 h3{
@@ -137,31 +136,41 @@ h3{
 }
 
 .cont-text p{
+    padding: 15px 0;
     text-align: center;
-
 }
 
 .nosotras{
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
 .cont-romi{
     display: flex;
     justify-content: center;
+    align-items: stretch;
 }
 .img-romi img{
-    width: 100px;
+    width: 150px;
     height: auto;
+    border-radius: 50%;
 }
 
 .cont-ana{
     display: flex;
     justify-content: center;
+    align-items: stretch;
 }
 
 .img-ana img{
-    width: 100px;
+    width: 150px;
     height: auto;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px){
+    .nosotras{
+        padding: 5%;
+    }
 }
 
 /* FIN CUERPO DE LA PAGINA */
@@ -196,17 +205,4 @@ footer{
 .abajo ul li img{
     height: 20px;
     padding: 0 20px;
-}
-
-
-@media screen and (max-width: 900px){
-    .card-cont{
-        flex-direction: column;
-    }
-    .card p{
-        padding: 10px 0;
-    }
-    .cont-nosotros{
-        flex-direction: column;
-    }
 }
