@@ -33,15 +33,26 @@
     </header>
     <!--CUERPO DE LA PAGINA-->
 
-    <form action="enviarcorreo.php" method="post">
-        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
-        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
-        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
-        <div class="clear"></div>
-            <div class="col-md-8"> 
-                <button type="submit" class="btn btn-primary">ENVIAR </button>
-            </div>
+    <form action="procesar_formulario.php" method="post">
+        <div>
+            <label for="nombre_empresa">Nombre de la Empresa:</label>
+            <input type="text" id="nombre_empresa" name="nombre_empresa" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
     </form>
     
     <!--FIN DEL CUERPO -->
