@@ -148,17 +148,35 @@ h3{
     display: flex;
     justify-content: center;
     align-items: stretch;
+    background-color: rgb(253, 243, 230);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
+
 .img-romi img{
     width: 150px;
     height: auto;
     border-radius: 50%;
+}
+.text-romi p{
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: start;
 }
 
 .cont-ana{
     display: flex;
     justify-content: center;
     align-items: stretch;
+    background-color: rgb(253, 243, 230);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.text-ana{
+    padding-right: 20px;
+    padding-top: 35px;
+    text-align: end;
 }
 
 .img-ana img{
@@ -167,7 +185,7 @@ h3{
     border-radius: 50%;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .nosotras{
         padding: 5%;
     }
