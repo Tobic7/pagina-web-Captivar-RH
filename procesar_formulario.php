@@ -8,7 +8,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!empty($nombre_empresa) && !empty($email) && !empty($telefono) && !empty($mensaje)) {
 
-        // Configuración del correo //
         $to = "tobicaminos5@gmail.com"; // Cambiar al correo de la empresa
         $subject = "Nuevo mensaje de la Web";
         $body = "Nombre de la Empresa: $nombre_empresa\n";
